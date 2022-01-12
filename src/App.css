@@ -1,38 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300;400;500;700&display=swap");
+@import "animate.css";
+
+body {
+  background-color: #6d2e46;
+  color: #ece2d0;
+  font-family: "Arima Madurai", cursive;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-size: 27px;
+}
+
+p {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header {
+  background-color: #ece2d0;
+  padding: 1.5%;
+  font-size: 22px;
+  display: flex;
+  position: fixed;
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header a {
+  color: #6d2e46;
+  text-decoration: none;
+  font-weight: bolder;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav {
+  margin-left: 25px;
+  font-size: 18px;
+  margin-top: 2px;
+}
+
+nav a {
+  margin-right: 18px;
+  color: #a26769;
+}
+
+.about_me {
+  padding: 20px;
+  padding-top: 120px;
+}
+
+.kimg {
+  width: 180px;
+  border-radius: 20px;
+}
+
+button {
+  background-color: #ece2d0;
+  padding: 8px;
+  font-family: "Arima Madurai", cursive;
+  font-size: 15px;
+  font-weight: bolder;
+  margin: 8px;
+  color: #6d2e46;
+  border: 2px solid #a26769;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d5b9b2;
+}
+
+.code {
+  width: 40px;
+  padding-top: 20px;
+}
+
+.check {
+  width: 40px;
+  padding-top: 20px;
+}
+
+.project_cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.buildapps_container {
+  background-color: #a26769;
+  padding: 20px;
+  width: 38%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  margin: 15px;
+  border-radius: 8px;
+}
+
+.buildapps_container h4 {
+  margin: 3px;
+}
+
+.buildapps_container h3 {
+  margin: 8px;
+}
+
+.buildapps_container a {
+  color: #6d2e46;
+  text-decoration: none;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.projectgif {
+  border-radius: 4px;
+  margin-top: 15px;
+}
+
+.all_skills {
+  display: grid;
+  grid-template-rows: 50px 50px 50px 50px;
+  grid-template-columns: 200px 200px 200px;
+  column-gap: 25px;
+  row-gap: 15px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.skills {
+  background-color: #a26769;
+  border-radius: 2px;
+  font-size: 18px;
+  font-weight: bolder;
+  place-self: center stretch;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input {
+  width: 55%;
+  padding: 1%;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  border: none;
+  font-family: "Arima Madurai", cursive;
+  font-weight: bolder;
+}
+
+textarea {
+  width: 55%;
+  padding: 1%;
+  border-radius: 4px;
+  border: none;
+  font-family: "Arima Madurai", cursive;
+  font-weight: bolder;
+}
+
+.submitform {
+  width: 57%;
+  padding: 4px;
+  margin-bottom: 40px;
+}
+
+label {
+  font-weight: bolder;
+}
+
+footer {
+  background-color: #ece2d0;
+  padding: 0.5%;
+  color: #6d2e46;
+}
+
+.linkedin {
+  width: 28px;
+  height: auto;
+  margin: 15px;
+}
+
+.github {
+  width: 28px;
+  height: auto;
+  margin: 15px;
+}
+
+footer p {
+  font-size: 15px;
+  margin-top: 0;
+}
+
+.contact_container {
+  background-color: #a26769;
+  border-radius: 8px;
+  margin-top: 60px;
+  margin-bottom: 120px;
+  margin-left: 20%;
+  margin-right: 20%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+}
+
+.contact_container h1 {
+  margin-bottom: 15px;
+}
+
+.contact_container a {
+  color: #6d2e46;
+  text-decoration: none;
+  font-weight: bolder;
 }
