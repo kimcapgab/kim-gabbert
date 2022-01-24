@@ -50,14 +50,19 @@ p {
 
 .mainName3 {
   color: #fffcf7;
-  display: block;
   font-size: 2em;
   font-weight: 200;
 }
+
 .listContainer {
   display: flex;
   justify-content: center;
-  justify-content: flex-start;
+}
+
+.animateList {
+  display: flex;
+  align-items: center;
+  margin-left: 2%;
 }
 
 .kimList {
@@ -66,6 +71,134 @@ p {
   font-weight: 400;
   flex-direction: column;
   align-items: flex-start;
+  font-size: 2em;
+}
+
+#flip {
+  height: 50px;
+  overflow: hidden;
+}
+
+#flip > div > div {
+  color: #fff;
+  padding: 4px 12px;
+  height: 45px;
+  margin-bottom: 45px;
+  display: inline-block;
+}
+
+#flip div:first-child {
+  animation: show 5s linear infinite;
+}
+
+#flip div div {
+  background: #8ca7cf;
+}
+#flip div:first-child div {
+  background: #a26769;
+}
+#flip div:last-child div {
+  background: #6d2e46;
+}
+
+@keyframes show {
+  0% {
+    margin-top: -270px;
+  }
+  5% {
+    margin-top: -180px;
+  }
+  33% {
+    margin-top: -180px;
+  }
+  38% {
+    margin-top: -90px;
+  }
+  66% {
+    margin-top: -90px;
+  }
+  71% {
+    margin-top: 0px;
+  }
+  99.99% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: -270px;
+  }
+}
+
+#draw-border {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+  margin-top: 3%;
+}
+
+.continue {
+  border: 0;
+  background: none;
+  text-transform: uppercase;
+  color: #1d2d44;
+  font-weight: bold;
+  position: relative;
+  outline: none;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+
+.continue::before,
+.continue::after {
+  box-sizing: inherit;
+  position: absolute;
+  content: "";
+  border: 2px solid transparent;
+  width: 0;
+  height: 0;
+}
+
+.continue::after {
+  bottom: 0;
+  right: 0;
+}
+
+.continue::before {
+  top: 0;
+  left: 0;
+}
+
+.continue:hover::before,
+.continue:hover::after {
+  width: 100%;
+  height: 100%;
+}
+
+.continue:hover::before {
+  border-top-color: #1d2d44;
+  border-right-color: #1d2d44;
+  transition: width 0.3s ease-out, height 0.3s ease-out 0.3s;
+}
+
+.continue:hover::after {
+  border-bottom-color: #1d2d44;
+  border-left-color: #1d2d44;
+  transition: border-color 0s ease-out 0.6s, width 0.3s ease-out 0.6s,
+    height 0.3s ease-out 1s;
+}
+
+.continue {
+  background-color: #fffcf7;
+  border: none;
+  padding: 1%;
+  transition: all 0.5s;
+  cursor: pointer;
+  font-size: 2em;
+  font-weight: 400;
+}
+
+.continue:hover {
+  background-color: #fffcf7;
 }
 
 .App {
@@ -267,4 +400,69 @@ footer p {
   color: #6d2e46;
   text-decoration: none;
   font-weight: bolder;
+}
+
+@media (max-width: 1000px) {
+  .mainName {
+    font-size: 6em;
+  }
+  .mainName2 {
+    font-size: 2em;
+  }
+
+  .mainName3 {
+    font-size: 1.5em;
+  }
+  .continue {
+    font-size: 1.5em;
+  }
+  .kimList {
+    font-size: 1.2em;
+  }
+}
+
+@media (max-width: 535px) {
+  .mainName {
+    font-size: 3em;
+  }
+  .mainName2 {
+    font-size: 1.5em;
+  }
+
+  .mainName3 {
+    font-size: 1.2em;
+  }
+  .kimList {
+    font-size: 0.8em;
+  }
+  #flip {
+    height: 30px;
+  }
+  .continue {
+    font-size: 1.1em;
+    margin-top: 5%;
+  }
+}
+
+@media (max-width: 393px) {
+  .mainName {
+    font-size: 2em;
+  }
+  .mainName2 {
+    font-size: 1em;
+  }
+
+  .mainName3 {
+    font-size: 1em;
+  }
+  .kimList {
+    font-size: 0.5em;
+  }
+  #flip {
+    height: 20px;
+  }
+  .continue {
+    font-size: 0.8em;
+    margin-top: 10%;
+  }
 }

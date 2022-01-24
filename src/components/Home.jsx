@@ -11,19 +11,20 @@ export default function Home() {
           JUNIOR SOFTWARE ENGINEER
         </h3>
         
-        <div className="listContainer content">
-          <h3 className="mainName3">A LITTLE ABOUT ME:</h3>
+        <div className="listContainer animate__animated animate__zoomIn">
+          <h3 className="mainName3" >A LITTLE ABOUT ME:</h3>
           <div className="animateList content__container">
-          <ul className="kimList content__container__list">
-            <li class="content__container__list__item">PUZZLE ENTHUSIAST</li>
-            <li class="content__container__list__item">LATINA</li>
-            <li class="content__container__list__item">TRAVEL ENTHUSIAST</li>
-            <li class="content__container__list__item">BAKER</li>
-            </ul>
+          <div className="kimList" id="flip">
+            <div><div>PUZZLE ENTHUSIAST</div></div>
+            <div><div>PROUD LATINA</div></div>
+            <div><div> WORLD TRAVELER</div></div>
+            </div>
             </div>
         </div>
       </div>
-      <Link to="/enter">Continue to Portfolio</Link>
+      <div id="draw-border">
+      <Link to="/enter"><button className="continue">Continue to Portfolio</button></Link>
+      </div>
     </div>
   );
 }
