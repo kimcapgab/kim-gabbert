@@ -8,14 +8,15 @@ export default function About() {
         </h1>
         <img className="kimg" src="kim_small.jpg" alt="Kim" />
         <p>
-          I'm a current student at General Assembly's Software Engineering Immersive program, with an expected graudation date of January 31, 2022.
-          Prior to making this transition to Software Engineer, I was a CPA and worked with a variety of accounting software and applications.
-          Part of my role included implementation of the applications, as well as training and tech support for our clients. Although I enjoyed these
-          aspects of my job, I aspired for more, which led me to General Assembly. At General Assembly, I have improved my coding skills and have added
-          languages to my skill set and am currently learning more. 
+          Coming from an accounting and implementations background, my previous roles allowed me to research
+          and help customers select the best software that met their needs. This thirst for knowledge and passion
+          for solving problems led me to start a new career in Software Development, giving me the ability to
+          design real-world applications with customers in mind. With five years of professional experience
+          working in various environments from large corporations to start-ups, I am ready to help a team achieve
+          company goals and to expand my knowledge and skillset to build a long-term career with a forward-thinking company.
         </p>
         <a href="#project"><button>View Work</button></a>
-        <a href="#resume"><button>Resume</button></a>
+        <a href="../Gabbert.Kim.pdf" target="_blank"><button>Resume</button></a>
         <a href="#contact"><button>Contact Me</button></a>
       </div>
       </section>

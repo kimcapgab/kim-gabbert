@@ -53,7 +53,7 @@ export default function Contact() {
   return (
     <section id="contact">
       <div className="contact_container">
-        <h1>Contact Me</h1>
+        <h1>CONTACT ME</h1>
         <h3>Feel free to <a href="mailto:kim.capilla.gabbert@gmail.com" target="_blank" rel="noreferrer">email me</a>, or send me a message below. Thank you!</h3>
         <form onSubmit={handleSubmit}>
           <label>Name </label> <br />
