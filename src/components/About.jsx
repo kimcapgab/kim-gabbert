@@ -13,7 +13,7 @@ export default function About() {
           for solving problems led me to start a new career in Software Development, giving me the ability to
           design real-world applications with customers in mind. With five years of professional experience,
           working in various environments from start-ups to large corporations, I am ready to help a team achieve
-          their goals while expanding my knowledge and skillsets to build a long-term career.
+          their goals while expanding my knowledge and skill sets to build a long-term career.
         </p>
         <a href="#project"><button>View Work</button></a>
         <a href="../Gabbert.Kim.pdf" target="_blank"><button>Resume</button></a>
