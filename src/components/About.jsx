@@ -11,9 +11,9 @@ export default function About() {
           Coming from an accounting and implementations background, my previous roles allowed me to research
           and help customers select the best software that met their needs. This thirst for knowledge and passion
           for solving problems led me to start a new career in Software Development, giving me the ability to
-          design real-world applications with customers in mind. With five years of professional experience
-          working in various environments from large corporations to start-ups, I am ready to help a team achieve
-          company goals and to expand my knowledge and skillset to build a long-term career with a forward-thinking company.
+          design real-world applications with customers in mind. With five years of professional experience,
+          working in various environments from start-ups to large corporations, I am ready to help a team achieve
+          their goals while expanding my knowledge and skillsets to build a long-term career.
         </p>
         <a href="#project"><button>View Work</button></a>
         <a href="../Gabbert.Kim.pdf" target="_blank"><button>Resume</button></a>
