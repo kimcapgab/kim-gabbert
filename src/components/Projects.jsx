@@ -10,7 +10,6 @@ export default function Projects() {
           {projects.map((project) => (
             <div key={project.id} className="buildapps_container">
               <h3> {project.title} </h3>
-              <h4> {project.subtitle} </h4>
               <h4> {project.description} </h4>
               <a href={project.link} target="_blank" rel="noreferrer">
                 <div className="buildapps">
@@ -22,6 +21,7 @@ export default function Projects() {
                   />
                 </div>
               </a>
+              <h4> {project.subtitle} </h4>
               <a href={project.github} target="_blank" rel="noreferrer">
                 <img className="github" src="./github-logo.png" alt="GitHub" />
               </a>
