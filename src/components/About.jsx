@@ -16,7 +16,7 @@ export default function About() {
           their goals while expanding my knowledge and skill sets to build a long-term career.
         </p>
         <a href="#project"><button>View Work</button></a>
-        <a href="../Gabbert.Kim.pdf" target="_blank"><button>Resume</button></a>
+        <a href="../Gabbert.Kim.Resume.pdf" target="_blank"><button>Resume</button></a>
         <a href="#contact"><button>Contact Me</button></a>
       </div>
       </section>
