@@ -22,7 +22,7 @@ export const projects = [
     subtitle: "React, Express, Mongoose, MongDB, Full CRUD",
     description: "Your Craft was created as a group project. It is an app that displays an inventory of craft beer, wines and liquors. This app was created to promote small locally owned Brewers, Distillers, and Wine Makers. It allows small businesses to add their products, a link to their website, as well as show details about their beverages. Please use the following credentials if you would like to test the creation and editing of beverages. Username: admin Password: password",
     image: "https://res.cloudinary.com/dn2x2ldxj/image/upload/v1644441433/ezgif.com-gif-maker_tmvox9.gif",
-    link: "https://zealous-leavitt-47d043.netlify.app/",
+    link: "https://vigorous-nightingale-c6c34d.netlify.app/",
     github: "https://github.com/kimcapgab/your-craft",
     id: "3",
   },
